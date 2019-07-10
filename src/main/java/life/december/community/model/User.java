@@ -3,10 +3,10 @@ package life.december.community.model;
 public class User {
     private Integer id;
     private String name;
-    private  String accountId;
+    private String accountId;
     private String token;
-    private  Long gmtCreate;
-    private  Long gmtModified;
+    private Long gmtCreate;
+    private Long gmtModified;
 
     public String getToken() {
         return token;
